@@ -12,6 +12,11 @@ use Time::HiRes qw(usleep);
 # 
 # Valgrind is enabled by default
 
+# 08/06/02
+# kingyen@ecf.utoronto.ca
+# enhanced by johncwu@ca.ibm.com
+# enhanced by patrick.judd@mail.utoronto.ca 2012-09-06
+
 if($#ARGV != 2) {   
   print "usage: ./exercise student_executable reference_executable test_cases\n";
   exit(1);
