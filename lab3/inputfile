@@ -1,0 +1,5 @@
+maxShapes 10
+create a triangle 1 1 1 1
+move a 2 2
+draw all
+delete all

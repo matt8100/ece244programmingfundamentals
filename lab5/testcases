@@ -1,0 +1,16 @@
+circle c1 1 2 9
+retangle r1 1 2 5 10
+triangle t1 9 0 1 2 3 4
+draw
+area
+circle c1 1 2 9
+retangle r1 1 2 5 10
+triangle t1 9 0 1 2 3 4
+draw
+area
+circle c2 1 2 9
+retangle r2 1 2 5 10
+triangle t2 9 0 1 2 3 4
+draw
+area
+---

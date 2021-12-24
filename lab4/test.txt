@@ -1,0 +1,131 @@
+delete g1
+draw
+---
+group a
+shape a ellipse 1 1 1 1
+draw
+---
+group a
+delete a
+shape a ellipse 1 1 1 1
+draw
+---
+shape a ellipse 1 1 1 1
+group a
+draw
+---
+shape a ellipse 1 1 1 1
+delete a
+group a
+draw
+---
+shape a ellipse 1 1 1 1
+delete a
+group a
+move a a
+draw
+---
+shape a ellipse 1 1 1 1
+delete a
+group a
+delete a
+move a a
+draw
+---
+group a
+delete a
+delete a
+draw
+---
+shape a ellipse 1 1 1 1
+shape b ellipse 1 1 1 1
+shape c ellipse 1 1 1 1
+shape d ellipse 1 1 1 1
+shape e ellipse 1 1 1 1
+delete a
+delete b
+delete e
+group g1
+group g2
+group g3
+group g4
+delete g1
+delete g4
+move a g1
+move a g2
+move a g3
+move a g4
+move b g1
+move b g2
+move b g3
+move b g4
+move c g1
+move c g2
+move c g3
+move c g4
+move d g1
+move d g2
+move d g3
+move d g4
+move e g1
+move e g2
+move e g3
+move e g4
+draw
+---
+shape ag1 ellipse 1 1 1 1
+shape bg1 ellipse 1 1 1 1
+shape cg1 ellipse 1 1 1 1
+shape dg1 ellipse 1 1 1 1
+shape eg1 ellipse 1 1 1 1
+shape ag2 ellipse 1 1 1 1
+shape bg2 ellipse 1 1 1 1
+shape cg2 ellipse 1 1 1 1
+shape dg2 ellipse 1 1 1 1
+shape eg2 ellipse 1 1 1 1
+shape ag3 ellipse 1 1 1 1
+shape bg3 ellipse 1 1 1 1
+shape cg3 ellipse 1 1 1 1
+shape dg3 ellipse 1 1 1 1
+shape eg3 ellipse 1 1 1 1
+shape ag4 ellipse 1 1 1 1
+shape bg4 ellipse 1 1 1 1
+shape cg4 ellipse 1 1 1 1
+shape dg4 ellipse 1 1 1 1
+shape eg4 ellipse 1 1 1 1
+group g1
+group g2
+group g3
+group g4
+move ag1 g1
+move bg1 g1
+move cg1 g1
+move dg1 g1
+move eg1 g1
+move ag2 g2
+move bg2 g2
+move cg2 g2
+move dg2 g2
+move eg2 g2
+move ag3 g3
+move bg3 g3
+move cg3 g3
+move dg3 g3
+move eg3 g3
+move ag4 g4
+move bg4 g4
+move cg4 g4
+move dg4 g4
+move eg4 g4
+draw
+delete ag1
+delete bg2
+delete cg3
+delete eg4
+draw
+delete g1
+delete g2
+delete g3
+delete g4
+draw
+---
